@@ -1,124 +1,95 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 
 <head>
-	<title>fishing website</title>
-
+	<meta charset="UTf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
+		rel="stylesheet" />
 	<link rel="stylesheet" href="css/style.css" />
-
-	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Relvise</title>
 </head>
 
 <body>
-	<h1>My testing of github pages</h1>
-	<br>
-	<h2>Steps:</h2>
-	<p class="r">
-		First time when i trying to post website of hosts pages
-	</p>
-
-	<form action="#" method="post" enctype="multipart/form-data">
-		<div>
-			<P class="form1">Введите имя пользователя и пароль:</P>
-			<input placeholder="имя пользователя" type="text" name="username" value="" />
-		</div>
-		<br>
-		<div>
-			<input disabled placeholder="Тут писать нельзя!" type="text" name="username" value="" />
-		</div>
-		<br>
-		<div>
-			<input disabled placeholder="Тут писать нельзя!" type="password" name="userpass" value="" />
-		</div>
-		<br>
-		<div>
-			<input tabindex="3" placeholder="подпись поля" type="password" name="userpass" value="" />
-		</div>
-		<br>
-		<div>
-			<p>Выберите напиток:</p>
-			<p> <input tabindex="2" checked type="radio" name="beer" value="lager" /> Светлое пиво 0.5л (Чехия) 400 руб
-			</p>
-			<p> <input tabindex="2" type="radio" name="beer" value="dark" /> Темное пиво 0.5л (Германия) 350 руб</p>
-			<p> <input tabindex="2" type="radio" name="beer" value="vanilla"> Ванильный лимонад 1л 250 руб </p>
-		</div>
-		<br>
-		<div>
-			<p>Выберите основное блюдо:</p>
-			<p> <input type="checkbox" name="meal1" value="soup"> Суп куриный с лапшой 0.8л 350 руб </p>
-			<p> <input type="checkbox" name="meal2" value="soup2"> Борщ 0.8л 450 руб </p>
-			<p> <input type="checkbox" name="meal3" value="soup3"> Суп куриный с лапшой 0.8л 350 руб </p>
-			<p> <input type="checkbox" name="meal4" value="secondmeal1"> Жареные бедра 250г 150 руб </p>
-			<p> <input type="checkbox" name="meal5" value="secondmeal2"> Жареная картошка 150г 80 руб </p>
-		</div>
-		<br>
-		<div>
-			<p>Мороженое:</p>
-			<p> <input type="checkbox" name="ice cream" value="vanilla" /> Ванильное мороженое (100 гр.) 100 руб </p>
-			<p> <input type="checkbox" name="ice cream" value="chocolate" /> Шоколадное мороженое (100гр.) 150 руб </p>
-			<p> <input type="checkbox" name="ice cream" value="strawberry" /> Клубничное мороженое (100гр.) 200 руб </p>
-			<p> <input type="checkbox" name="ice cream" value="blackberry" /> Мороженое из черной смородины (100гр.) 250
-				руб </p>
-			<p> <input type="checkbox" name="ice cream" value="strochitella" /> Строчителла (100гр.) 300 руб </p>
-			<p> <input type="checkbox" name="ice cream" value="maxibon" /> Максибон (200гр.) 400 руб </p>
-		</div>
-		<br>
-		<div>
-			<p>Выберите способ доставки заказа:</p>
-			<p> <input type="radio" name="delivery" value="taxi" /> Доставка через такси </p>
-			<p> <input checked type="radio" name="delivery" value="courier" /> Доставка курьером </p>
-			<p> <input type="radio" name="delivery" value="curier2" /> Срочная Доставка курьером (в течении 40 минут) +300
-				рублей к сумме заказа </p>
-		</div>
-		<br>
-		<div>
-			<p>*при наличии сложного ланшавта, приложите план карты.</p>
-			<p> <input type="file" name="photo" value="yes" /> </p>
-		</div>
-		<br>
-		<div>
-			<p>Введите адрес доставки:</p>
-			<textarea name="text">Город, улица, дом, кваритира</textarea>
-		</div>
-		<br>
-		<div>
-			<p>При наличии скидочной карты введите четырехзначный код: </p>
-			<textarea name="discontcard"></textarea>
-		</div>
-		<br>
-		<div>
-			<p>Пожелания или уточнения к заказу:</p>
-			<textarea name="text"></textarea>
-		</div>
-		<br>
-		<div>
-			<p>Выберите пол</p>
-			<select name="male/female">
-				<option value="мужской">мужской</option>
-				<option value="женский">женский</option>
-			</select>
-		</div>
-		<br>
-		<div>
-			<p>Введите номер телефона</p>
-			<input type="tel" name="TelephoneNumber" value="">
-		</div>
-		<br>
-		<div>
-			<p>Введите полное количество лет</p>
-			<input type="tel" name="CurrenYear" value="">
-		</div>
-		<br>
-		<div>Итого:</div>
-		<br>
-		<div>
-			<button type="submit"> отправить</button>
-		</div>
-
-
-	</form>
-
-
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<a href="" class="header_logo">
+					Relvise
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="" class="menu_link">Home</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu_link">Product</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu_link">Pricing</a>
+						<li class="menu__item">
+							<a href="" class="menu_link">Contact</a>
+						</li>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__main-block main_block">
+				<div class="main-block__container _container">
+					<div class="main-block__body">
+						<h1 class="main-block__title">Finance and Consultancy Solution</h1>
+						<div class="main-block__text">
+							We know how large objects will act, but things on a small scale.
+						</div>
+						<div class="main-block__buttons">
+							<a href="" class="main-block__button main-block__button_orange">Get Quote Now</a>
+							<a href="" class="main-block__button main-block__button_border">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="main-block__image	_ibg">
+					<!--a ?php echo $image;? ></a-->
+					<img src="img/main block/cover.jpg" alt="cover">
+				</div>
+			</div>
+			<section class="page__services services">
+				<div class="services__container _container">
+					<div class="service__body">
+						<div class="service__column">
+							<div class="service__item item-service">
+								<div class="item-service__icon"><img src="img/services/01.svg" alt="Environmental Consulting">
+								</div>
+								<h3 class="item-service__title">Environmental Consulting</h3>
+								<div class="item-service__text">We focus on ergonomics and meeting you where you work. </div>
+							</div>
+						</div>
+						<div class="service__column">
+							<div class="service__item item-service">
+								<div class="item-service__icon"><img src="img/services/Vector.svg"
+										alt="Finance and consultancy ">
+								</div>
+								<h3 class="item-service__title">Finance and consultancy </h3>
+								<div class="item-service__text">Just type what's on your mind and we'll get you there. </div>
+							</div>
+						</div>
+						<div class="service__column">
+							<div class="service__item item-service item-service_green">
+								<div class="item-service__icon"><img src="img/services/nitebook.svg"
+										alt="Financial Services Consulting">
+								</div>
+								<h3 class="item-service__title">Financial Services Consulting</h3>
+								<div class="item-service__text">the quick fox jumps over the lazy dog </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">я подвал</footer>
+	</div>
+	<script src="website.js"></script>
 </body>
 
 </html>
